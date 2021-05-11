@@ -16,7 +16,7 @@ namespace MatrixCHMLA
                 " 3. U^t*U metod;\n" +
                 " 4. Left runinng of the matrix wuth theorem of Stability;\n" +
                 " 5. Jacobi Method\n");
-            int op = Convert.ToInt32(Console.ReadLine());
+            int op = Convert.ToInt32(Console.ReadLine()); 
             switch (op)
             {
                 case 1:

@@ -909,7 +909,7 @@ namespace MatrixCHMLA
                     D[i + 1, i] = A[i, 0];
                 }
             }
-
+             
             Matrix y = Matrix.TMA(A, B, C, F, n);
            
             Console.Write("\n\nY :");
