@@ -856,7 +856,8 @@ namespace MatrixCHMLA
                 PrintMatrix(A,n);
 
                 Console.WriteLine("\nA * x :");
-                Matrix tmp = A * x;
+                Matrix tmp = MultiplicateMatrixToVector(A, x, n);
+                //Matrix tmp1 = A * x;
                 PrintVector(tmp, n);
 
                 Console.WriteLine("\nb :");
